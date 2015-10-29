@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <%= image_tag('tinder-flame.png', width: '24', height: '28') %>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <h1><%= image_tag('catinder-logo.png', width: '380', height: '93') %></h1>
+
+  <h2>Pets start here.</h2>
+  <p id='who'>Who is Meow, and who is Not-Meow? You decide!</p>
+
+  <p><%= link_to 'get started >', '/cats?random=true' %></p>
+</header>
+
+<div class="row">
+  <div class="col-md-4 image-grid">
+    <%= image_tag('cat-cool.jpg') %>
+  </div>
+  <div class="col-md-4 image-grid">
+    <%= image_tag('cat-curious.jpg') %>
+  </div>
+  <div class="col-md-4 image-grid">
+    <%= image_tag('cat-cute.jpg') %>
+  </div>
+</div>
